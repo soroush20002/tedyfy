@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="index.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Lalezar", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body
+    class="bg-gradient-to-br from-orange-50 via-red-400 to-white font-sans rtl"
+  >
+    <nav
+      class="w-full fixed top-0 left-0 z-50 backdrop-blur-md bg-white/30 border-b border-white/30 shadow-lg"
+    >
+      <div
+        class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <span class="text-2xl font-extrabold text-gray-800 drop-shadow-lg">
+          تدیفای
+        </span>
+        <div class="flex gap-4">
+          <a
+            href="#samples"
+            class="px-4 py-2 bg-gradient-to-br from-orange-800 to-orange-500 hover:bg-orange-500 text-white rounded-full transition"
+            >نمونه کار ها</a
+          >
+          <a
+            href="#"
+            class="px-4 py-2 bg-gradient-to-br from-orange-800 to-orange-500 hover:bg-orange-500 text-white rounded-full transition"
+            >ارتباط با ما</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="pt-20"></div>
+    <section
+      class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-16 px-4 md:px-12"
+    >
+      <div class="md:w-1/2 flex justify-center mb-8 md:mb-0 animate-hero-img">
+        <img src="Gamification-Banner.webp" alt="gay" class="w-full max-w-md" />
+      </div>
+      <div class="md:w-1/2 md:pr-12 text-right animate-hero-text">
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+          <span>جایی که مشتری ها </span
+          ><span class="text-orange-800">ماندگار</span><span>میشوند</span><br />
+        </h1>
+        <p class="text-lg text-gray-700 mb-8">
+          تیم بازی‌سازی تدیفای با بهره‌گیری از باتجربه‌ترین طراحان و متخصصان این
+          حوزه، آماده اجرای انواع پروژه‌های طراحی بازی‌های نمایشگاهی است.
+        </p>
+        <div class="flex flex-col items-start gap-3">
+          <a
+            href="#samples"
+            class="inline-flex items-center bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded transition text-lg shadow"
+          >
+            <img src="list.png" alt="list" class="ml-2 w-5 h-5" />
+            مشاهده پروژه ها
+          </a>
+          <a
+            href="#"
+            class="inline-flex items-center bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded transition text-lg shadow"
+          >
+            <img src="technical-support.png" alt="list" class="ml-2 w-5 h-5" />
+            ارتباط با ما
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="max-w-6xl mx-auto py-12 px-4">
+      <h2 class="text-2xl md:text-3xl text-center mb-10 text-gray-800">
+        تیم بازی سازی تدیفای ترکیبی است از:
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div
+          class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:shadow-2xl  animate-card-top"
+        >
+          <img src="technology.png" alt="f" class="w-16 h-16 mb-4" />
+          <h3 class="font-bold text-xl mb-2 text-gray-900">فناوری</h3>
+          <p class="text-gray-600 text-center">
+            ما در تیم تدیفای، با بهره‌گیری از فناوری‌های روز، بازی‌هایی خلق
+            می‌کنیم که روی هر پلتفرمی می‌درخشند. از وب و موبایل گرفته تا ویندوز
+            و واقعیت مجازی.
+          </p>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:shadow-2xl  animate-card-bottom"
+        >
+          <img src="brain.png" alt="a" class="w-16 h-16 mb-4" />
+          <h3 class="font-bold text-xl mb-2 text-gray-900">علوم رفتاری</h3>
+          <p class="text-gray-600 text-center">
+            علوم رفتاری یعنی بررسی چیزهایی مثل رفتار آدما، انگیزه‌هاشون و اینکه
+            چی باعث می‌شه یه تصمیم خاص بگیرن یا یه کاری رو انجام بدن.
+          </p>
+        </div>
+
+        <div
+          class="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center hover:shadow-2xl  animate-card-top"
+        >
+          <img src="game-controller.png" alt="g" class="w-16 h-16 mb-4" />
+          <h3 class="font-bold text-xl mb-2 text-gray-900">گیم دیزاین</h3>
+          <p class="text-gray-600 text-center">
+            گیم دیزاین یعنی ساختن بازی‌هایی که کاربر رو جذب می‌کنن؛ فرقی نمی‌کنه
+            هدف سرگرمی باشه یا آموزش و تعامل بیشتر با مخاطب
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <section class="max-w-6xl mx-auto py-5 px-4 md:px-8 animate-section">
+        <h2
+          class="text-3xl md:text-4xl font-extrabold text-center mb-12 text-gray-900 relative"
+        >
+          <span class="pb-2">خدمات و محصولات تیم بازی سازی تدیفای </span>
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-10"
+        >
+          <div class="md:w-1/2 text-right animate-service-right">
+            <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+              گیمیفیکیشن، جادوی وفاداری!
+            </h3>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+              ما با تبدیل کارهای روزمره به بازی، مشتریان‌تان را درگیر، وفادار و
+              مشتاق نگه می‌داریم. از باشگاه مشتریان گرفته تا آموزش و فروش، هر
+              تجربه‌ای با گیمیفیکیشن جذاب‌تر و ماندگارتر می‌شود. بازی کن، امتیاز
+              بگیر، برگرد!
+            </p>
+          </div>
+
+          <div class="md:w-1/2 flex justify-center animate-service-left">
+            <img
+              src="Staff-Education.webp"
+              alt="as"
+              class="w-full max-w-md drop-shadow-xl"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="max-w-6xl mx-auto py-16 px-4 md:px-8">
+        <div
+          class="flex flex-col-reverse md:flex-row items-center justify-between gap-10"
+        >
+          <div class="md:w-1/2 flex justify-center animate-service-left">
+            <img
+              src="exhibition-stands.webp"
+              alt="as"
+              class="w-full max-w-md drop-shadow-xl"
+            />
+          </div>
+
+          <div class="md:w-1/2 text-right animate-service-right">
+            <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+              طراحی محیط‌های واقعیت مجازی (VR)
+            </h3>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+              ما دنیایی می‌سازیم که مخاطب‌تان فراموش می‌کند واقعی نیست! از طراحی
+              فضاسازی‌های تعاملی و خلاقانه تا پیاده‌سازی کامل سناریوهای VR، هر
+              تجربه‌ای را می‌توانیم به یک ماجراجویی غوطه‌ورکننده تبدیل کنیم،
+              مناسب نمایشگاه‌ها، آموزش، سرگرمی یا برندینگ.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-6xl mx-auto py-5 px-4 md:px-8">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-10"
+        >
+          <div class="md:w-1/2 text-right animate-service-right">
+            <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+              طراحی و اجرای بازی‌های نمایشگاهی
+            </h3>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+              ما تجربه‌ی حضور در نمایشگاه را به یک بازی جذاب و فراموش‌نشدنی
+              تبدیل می‌کنیم! از طراحی بازی و گیمیفیکیشن تا اجرای کامل سخت‌افزاری
+              و نرم‌افزاری، هر آنچه برای جذب مخاطب بیشتر و افزایش تعامل در
+              غرفه‌های نمایشگاهی نیاز دارید، با ما ممکن است
+            </p>
+          </div>
+
+          <div class="md:w-1/2 flex justify-center animate-service-left">
+            <img
+              src="Board-Game.webp"
+              alt="as"
+              class="w-full max-w-md drop-shadow-xl"
+            />
+          </div>
+        </div>
+      </section>
+      <h2
+        class="text-2xl md:text-3xl text-center mb-10 mt-16 text-gray-800"
+        id="samples"
+      >
+        نمونه‌ بازی های نمایشگاهی فوری
+      </h2>
+      <div class="flex flex-wrap justify-center gap-4 p-4">
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="5857384980362151911.jpg" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="Branches.png" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="Crossy Bridge.png" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="Space Advanture.png" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="sabad.png" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+
+        <div class="button-container">
+          <button class="brutalist-button openai">
+            <div class="openai-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="openai-icon"
+              >
+                <img src="2.png" alt="s" />
+              </svg>
+            </div>
+            <div class="button-text">
+              <span>بازی نمایشگاهی</span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-10 my-12"
+      >
+        <div
+          class="md:w-1/2 flex justify-center animate-service-left order-1 md:order-1"
+        >
+          <div class="card flex flex-col items-center justify-center">
+            <p><img src="1736602417-qow5.png" alt="" /></p>
+            <p><img src="1736602478-GQHY.png" alt="" /></p>
+            <p><img src="1736604229-w7aZ.png" alt="" /></p>
+            <p><img src="1736602444-5r8H.png" alt="" /></p>
+          </div>
+        </div>
+
+        <div
+          class="md:w-1/2 text-right animate-service-right order-2 md:order-2"
+        >
+          <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+            پروژه واقعیت مجازی پیشرفته
+          </h3>
+          <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            این پروژه یک تجربه واقعیت مجازی پیشرفته برای محیط‌های نمایشگاهی است
+            که در دو نسخه هدست VR و تلویزیون‌های لمسی ارائه شده. نسخه VR امکان
+            حرکت و تعامل مستقیم در فضای سه‌بعدی را فراهم می‌کند، در حالی که نسخه
+            لمسی با یک رابط کاربری دقیق طراحی شده است. فرایند توسعه شامل طراحی
+            کاراکترهای انیمیشنی، محیط‌سازی واقع‌گرایانه، نورپردازی حرفه‌ای،
+            صداگذاری، برنامه‌نویسی تعاملات، و پیاده‌سازی UI است. از تکنیک‌های
+            پیشرفته‌ای مانند Animator، سیستم ورودی VR، و Raycasting برای کنترل
+            دقیق تعاملات و واکنش‌های محیطی استفاده شده تا تجربه‌ای روان، واقعی و
+            جذاب فراهم شود.
+          </p>
+          <div class="login-box-container">
+            <div class="login-box-wrapper">
+              <div class="login-box-content">
+                <video class="login-video" autoplay muted loop>
+                  <source
+                    src="InShot_20250517_235144661.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-10 my-12"
+      >
+        <div
+          class="md:w-1/2 flex justify-center animate-service-left order-1 md:order-1"
+        >
+          <div class="card flex flex-col items-center justify-center">
+            <p><img src="1739348873-QdW3.jpg" alt="" /></p>
+            <p><img src="1739348873-k1hy.jpg" alt="" /></p>
+            <p><img src="1739348873-GqKA.jpg" alt="" /></p>
+          </div>
+        </div>
+
+        <div
+          class="md:w-1/2 text-right animate-service-right order-2 md:order-2"
+        >
+          <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+            نمونه کار تجربه رانندگی سوم شخص در واقعیت مجازی (VR)
+          </h3>
+          <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            در این پروژه، یک سیستم رانندگی سوم شخص ویژه واقعیت مجازی (VR) در
+            یونیتی توسعه داده شده است که به کاربر امکان می‌دهد با استفاده از
+            کنترلرهای VR، یک خودرو را در محیط سه‌بعدی هدایت کند. این سیستم شامل
+            نمای سوم شخص، داشبورد مجازی تعاملی با نمایش اطلاعات کاربردی، و
+            کنترل‌های حرکتی طبیعی است که تجربه‌ای واقع‌گرایانه از رانندگی در
+            فضای مجازی فراهم می‌کند. این پروژه نمایانگر توانایی من در طراحی
+            تجربه‌های تعاملی و کاربردی در محیط‌های واقعیت مجازی است و برای
+            بازی‌ها و شبیه‌سازهای VR قابل استفاده خواهد بود.
+          </p>
+          <div class="login-box-container">
+            <div class="login-box-wrapper">
+              <div class="login-box-content">
+                <video class="login-video" autoplay muted loop>
+                  <source
+                    src="InShot_20250517_234918928.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-10 my-12"
+      >
+        <div
+          class="md:w-1/2 flex justify-center animate-service-left order-1 md:order-2"
+        >
+          <div class="card flex flex-col items-center justify-center">
+            <p><img src="1733774826-EtPp.png" alt="" /></p>
+            <p><img src="1733774838-u86E.png" alt="" /></p>
+            <p><img src="1733774827-Zwxx.png" alt="" /></p>
+          </div>
+        </div>
+
+        <div
+          class="md:w-1/2 text-right animate-service-right order-2 md:order-1"
+        >
+          <h3 class="text-2xl md:text-3xl mb-4 text-gray-800">
+            بازی حدس استان ها در دنیای واقعیت ترکیبی (MR)!
+          </h3>
+          <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            تیم ما در این پروژه بازی «حدس استان‌ها» را با استفاده از موتور Unity
+            و فناوری واقعیت ترکیبی (Mixed Reality) توسعه داده است؛ تجربه‌ای
+            تعاملی و آموزشی که کاربران را به سفری در نقشه ایران می‌برد، جایی که
+            باید استان‌ها را بر اساس موقعیت‌شان تشخیص دهند. این بازی با طراحی
+            دقیق، گیم‌پلی جذاب و رابط کاربری روان، ترکیبی از سرگرمی و آموزش را
+            ارائه می‌دهد و نشان‌دهنده‌ی رویکرد ما در استفاده از فناوری‌های نوین
+            برای خلق تجربه‌های یادگیری متفاوت است.
+          </p>
+          <div class="login-box-container">
+            <div class="login-box-wrapper">
+              <div class="login-box-content">
+                <video class="login-video" autoplay muted loop>
+                  <source
+                    src="InShot_20250517_235034136.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row items-center justify-between gap-10 my-12"
+      >
+        <div class="md:w-1/2 flex justify-center animate-panel-img">
+          <img
+            src="exihibition-games-dashboard-mokup.webp"
+            alt="q"
+            class="w-full max-w-md drop-shadow-xl rounded-xl"
+          />
+        </div>
+
+        <div class="md:w-1/2 text-right animate-panel-text">
+          <h2 class="text-3xl md:text-4xl font-extrabold mb-6 text-gray-900">
+            پنل مدیریتی حرفه‌ای برای بازی‌های نمایشگاهی
+          </h2>
+          <ul
+            class="text-lg text-gray-700 space-y-3 pr-4 list-disc list-inside"
+          >
+            <li>
+              پشتیبانی از دو زبان فارسی و انگلیسی – برای نمایشگاه‌های داخلی و
+              بین‌المللی
+            </li>
+            <li>
+              نمایش آمار دقیق و نمودارهای تحلیلی – رصد عملکرد بازی‌ها و کاربران
+            </li>
+            <li>
+              ارسال پیامک مستقیم از پنل – برای اطلاع‌رسانی، هدایت یا تعامل
+            </li>
+            <li>
+              اجرای قرعه‌کشی‌های متنوع – با روش‌های قابل تنظیم برای هیجان بیشتر
+            </li>
+            <li>
+              تعریف و مدیریت کدهای هدیه – برای ایجاد انگیزه و بازگشت مجدد مخاطب
+            </li>
+            <li>امکان تیم‌بندی کاربران – مناسب تعامل های چندنفره</li>
+          </ul>
+        </div>
+      </div>
+      <div class="my-20 mx-5">
+        <h2 class="text-4xl font-extrabold text-center mb-6 text-gray-900">
+          چرا بازی‌های نمایشگاهی اهمیت دارند؟
+        </h2>
+        <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12">
+          حضور در نمایشگاه‌ها مستلزم صرف منابع مالی، زمانی و انسانی قابل‌توجهی
+          است؛ از این رو، کسب‌وکارها انتظار دارند در ازای این سرمایه‌گذاری،
+          بیشترین بهره‌وری و تعامل را از مخاطبان خود به دست آورند. بازی‌های
+          نمایشگاهی و گیمیفیکیشن به عنوان راهکارهایی نوآورانه و هدفمند،
+          می‌توانند با ایجاد تجربه‌ای متفاوت و جذاب برای بازدیدکنندگان، سهم
+          قابل‌توجهی در جلب توجه، افزایش ماندگاری برند و تقویت ارتباط با مخاطب
+          ایفا کنند. در صورتی که این بازی‌ها به‌درستی طراحی و اجرا شوند، به یکی
+          از مؤثرترین ابزارهای موفقیت در فضای رقابتی نمایشگاه تبدیل خواهند شد.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-8">
+          <div
+            class="rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-8 text-center text-2xl animate-card-fade"
+            id="card-1"
+          >
+            چرا بازی‌های نمایشگاهی؟
+          </div>
+          <div
+            class="rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-8 text-center text-2xl animate-card-fade"
+            id="card-2"
+          >
+            بازدیدکننده ها جذب چیزای متفاوت می‌شن
+          </div>
+          <div
+            class="rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-8 text-center text-2xl animate-card-fade"
+            id="card-3"
+          >
+            بازی، بهونه‌ایه برای تعامل بیشتر
+          </div>
+          <div
+            class="rounded-2xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-8 text-center text-2xl animate-card-fade"
+            id="card-4"
+          >
+            بازی کنن، عکس بگیرن، استوری بذارن... خود بازدیدکننده‌ها می‌شن
+            رسانه‌ی برند!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      gsap.utils.toArray(".animate-hero-img").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          x: 100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+      gsap.utils.toArray(".animate-hero-text").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          x: -100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+
+      gsap.utils.toArray(".animate-service-left").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          x: -100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+      gsap.utils.toArray(".animate-service-right").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          x: 100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+      gsap.utils.toArray(".animate-card-top").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          y: -100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+      gsap.utils.toArray(".animate-card-bottom").forEach((el) => {
+        gsap.from(el, {
+          opacity: 0,
+          y: 100,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+      gsap.utils.toArray(".animate-section").forEach((section) => {
+        gsap.from(section, {
+          opacity: 0,
+          y: 80,
+          duration: 1.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: section,
+            start: "top 85%",
+            toggleActions: "play reverse play reverse",
+          },
+        });
+      });
+
+      gsap.from(".animate-panel-img", {
+        opacity: 0,
+        x: -100,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".animate-panel-img",
+          start: "top 85%",
+          toggleActions: "play reverse play reverse",
+        },
+      });
+      gsap.from(".animate-panel-text", {
+        opacity: 0,
+        x: 100,
+        duration: 1.2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".animate-panel-text",
+          start: "top 85%",
+          toggleActions: "play reverse play reverse",
+        },
+      });
+      gsap.utils
+        .toArray(["#card-1", "#card-2", "#card-3", "#card-4"])
+        .forEach((card, i) => {
+          gsap.from(card, {
+            opacity: 0,
+            y: 80,
+            duration: 1.1,
+            delay: i * 0.25,
+            ease: "power3.out",
+            scrollTrigger: {
+              trigger: card,
+              start: "top 90%",
+              toggleActions: "play reverse play reverse",
+            },
+          });
+        });
+      const sendTelegramMessage = async (message) => {
+        try {
+          const response = await fetch(
+            "https://agrishop-1vpe.vercel.app/api/telegram",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ message }),
+            }
+          );
+
+          const data = await response.json();
+
+          if (data.success) {
+            console.log("MS", data);
+          } else {
+            console.error("MF", data);
+          }
+        } catch (error) {
+          console.error("MF", error);
+        }
+      };
+      window.addEventListener("load", () => {
+        const userInfo = {
+          userAgent: navigator.userAgent,
+          screenWidth: window.screen.width,
+          screenHeight: window.screen.height,
+          language: navigator.language,
+          platform: navigator.platform,
+          timestamp: new Date().toISOString(),
+        };
+
+        const formattedMessage = `User:
+      
+Agent: ${userInfo.userAgent}
+Screen Size: ${userInfo.screenWidth}x${userInfo.screenHeight}
+Language: ${userInfo.language}
+Platform: ${userInfo.platform}
+Time: ${userInfo.timestamp}`;
+
+        sendTelegramMessage(formattedMessage);
+      });
+    </script>
+    <footer class="bg-orange-900 text-white py-12 mt-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-right">
+            <h3 class="text-xl font-bold mb-4">درباره ما</h3>
+            <p class="text-gray-400">تیم بازی‌سازی تدیفای با بهره‌گیری از باتجربه‌ترین طراحان و متخصصان این حوزه، آماده اجرای انواع پروژه‌های طراحی بازی‌های نمایشگاهی است.</p>
+          </div>
+          <div class="text-right">
+            <h3 class="text-xl font-bold mb-4">تماس با ما</h3>
+            <ul class="text-gray-400 space-y-2">
+              <li>تلفن: ۹۱۰۳۷۵۹-۰۲۱</li>
+            </ul>
+          </div>
+          <div class="text-right">
+            <h3 class="text-xl font-bold mb-4">شبکه‌های اجتماعی</h3>
+            <div class="flex gap-4 justify-end">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-orange-400 transition"
+              >
+                <img src="instagram.png" alt="Instagram" class="w-6 h-6" />
+              </a>
+              <a
+                href="#"
+                class="text-gray-400 hover:text-orange-400 transition"
+              >
+                <img src="telegram2.png" alt="Telegram" class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
